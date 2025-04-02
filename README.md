@@ -21,7 +21,7 @@ This repository contains tools for precision oncology data analysis focused on c
    - Go to: https://www.cbioportal.org/study/summary?id=coadread_tcga_pan_can_atlas_2018
    - Download the dataset
    - Save the zip file to the `data` folder
-   - Extract the contents into `data/tcga_data/coadread_tcga_pan_can_atlas_2018`
+   - Extract the contents into `data/tcga_data/`
 
 3. **Create the conda environment**
    ```
