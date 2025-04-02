@@ -31,7 +31,7 @@ This repository contains tools for precision oncology data analysis focused on c
 
 4. **Verify installation**
    ```
-   python src/test_setup.py
+   python3 src/test_setup.py
    ```
    If the test fails, please contact with the error message.
 
