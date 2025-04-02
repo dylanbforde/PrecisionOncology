@@ -25,7 +25,7 @@ This repository contains tools for precision oncology data analysis focused on c
 
 3. **Create the conda environment**
    ```
-   conda env create -f environment.yml
+   conda env create -f conda_environment.yml
    conda activate PrecisionOncology
    ```
 
