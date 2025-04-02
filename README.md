@@ -13,7 +13,7 @@ This repository contains tools for precision oncology data analysis focused on c
 
 1. **Clone the repository**
    ```
-   git clone https://github.com/username/PrecisionOncology.git
+   git clone https://github.com/dylanbforde/PrecisionOncology.git
    cd PrecisionOncology
    ```
 
