@@ -50,7 +50,3 @@ PrecisionOncology/
 ├── environment.yml
 └── README.md
 ```
-
-### Troubleshooting
-
-If you encounter any issues during setup, please create an issue in the repository with details about the error.
