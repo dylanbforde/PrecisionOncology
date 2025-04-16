@@ -9,6 +9,23 @@ This repository contains tools for precision oncology data analysis focused on c
 - Git
 - Conda package manager
 
+# Project Goals
+Explore relevant TCGA data from patients that can be used for unsupervised clustering. Next a gene expression analysis for the population, then look at gene expression patterns on the discovered subtypes.
+Then link patient survival data and see if there are any subtypes with noticeably different health outcomes.
+If there are groups with high/low survival you can look at genes in those subgroups and determine if there are possible treatment options that are not currently considered.
+For example if HER2 is expressed in subgroups that did not survive, it could be targeted by an oncologist as an area that is not being treated in the cancer.
+If there are genes that do not currently have treatments, and their function is unknown, we can suggest those for further study.
+
+# To-Do
+- [ ] Decide on what data points to use for unsupervised learning
+- [ ] Prepare data for unsupervised learning
+- [ ] Do unsupervised learning
+- [ ] Plot tsne of feature embeddings
+- [ ] Feature Comparison for subgroups, what explains subgroups
+- [ ] Visualistaion for something like mutations in subgroups
+- [ ] How can we test for this subgroup
+- [ ] Suggest treatment for that subgroup
+
 ### Installation
 
 1. **Clone the repository**
