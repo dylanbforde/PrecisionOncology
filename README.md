@@ -46,6 +46,12 @@ If there are genes that do not currently have treatments, and their function is 
    conda activate PrecisionOncology
    ```
 
+   **For Continued Use**
+   ```
+   conda activate PrecisionOncology in cmd
+   Ctrl + Shift + P -> Python:SelectInterpreter -> The one with Precision Oncology
+   ```
+
 4. **Verify installation**
    ```
    python3 src/test_setup.py
