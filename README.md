@@ -65,11 +65,24 @@ If there are genes that do not currently have treatments, and their function is 
 PrecisionOncology/
 ├── data/
 │   ├── adapted_data/
+│   │   ├── ancestry_matrix.csv
+│   │   ├── cna_matrix.csv
+│   │   ├── merged_data.csv
+│   │   ├── mrna_matrix.csv
+│   │   └── mutation_matrix.csv
 │   └── tcga_data/
 │       └── coadread_tcga_pan_can_atlas_2018/
 ├── scripts/
+|   └── run_data_preparation.sh
 ├── src/
-│   └── test_setup.py
+│   ├── test_setup.py
+│   └── data_preparation/
+│       ├── merge_data.py
+│       ├── prepare_all_data.py
+│       ├── prepare_ancestry.py
+│       ├── prepare_cna.py
+│       ├── prepare_mrna.py
+│       └── prepare_mutations.py
 ├── .gitignore
 ├── environment.yml
 └── README.md
