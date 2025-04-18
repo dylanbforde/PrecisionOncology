@@ -8,10 +8,14 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler
+import pathlib
+
+# Get the project root directory (2 levels up from this script)
+PROJECT_ROOT = pathlib.Path(__file__).parent.parent.parent.absolute()
 
 # File paths
-DATA_DIR = '/home/forde/PrecisionOncology/data/adapted_data'
-OUTPUT_DIR = '/home/forde/PrecisionOncology/data/adapted_data'
+DATA_DIR = os.path.join(PROJECT_ROOT, 'data/adapted_data')
+OUTPUT_DIR = os.path.join(PROJECT_ROOT, 'data/adapted_data')
 MUTATIONS_FILE = os.path.join(DATA_DIR, 'mutations_matrix.csv')
 CNA_FILE = os.path.join(DATA_DIR, 'cna_matrix.csv')
 MRNA_FILE = os.path.join(DATA_DIR, 'mrna_matrix.csv')

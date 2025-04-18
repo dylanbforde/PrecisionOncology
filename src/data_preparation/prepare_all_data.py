@@ -6,9 +6,11 @@ This script runs all data preparation scripts to prepare the data for unsupervis
 import os
 import subprocess
 import time
+import pathlib
 
 def main():
-    scripts_dir = "/home/forde/PrecisionOncology/scripts"
+    # Get the current script directory
+    current_dir = pathlib.Path(__file__).parent.absolute()
     
     scripts = [
         "prepare_mutations.py",
@@ -18,7 +20,7 @@ def main():
     ]
     
     for script in scripts:
-        script_path = os.path.join(scripts_dir, script)
+        script_path = os.path.join(current_dir, script)
         
         # Make sure script is executable
         os.chmod(script_path, 0o755)

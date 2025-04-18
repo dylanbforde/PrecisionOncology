@@ -6,10 +6,14 @@ This script prepares the mRNA expression data for unsupervised learning.
 import os
 import pandas as pd
 import numpy as np
+import pathlib
+
+# Get the project root directory (2 levels up from this script)
+PROJECT_ROOT = pathlib.Path(__file__).parent.parent.parent.absolute()
 
 # File paths
-DATA_DIR = '/home/forde/PrecisionOncology/data/tcga_data/coadread_tcga_pan_can_atlas_2018'
-OUTPUT_DIR = '/home/forde/PrecisionOncology/data/adapted_data'
+DATA_DIR = os.path.join(PROJECT_ROOT, 'data/tcga_data/coadread_tcga_pan_can_atlas_2018')
+OUTPUT_DIR = os.path.join(PROJECT_ROOT, 'data/adapted_data')
 MRNA_FILE = os.path.join(DATA_DIR, 'data_mrna_seq_v2_rsem.txt')
 CLINICAL_SAMPLE_FILE = os.path.join(DATA_DIR, 'data_clinical_sample.txt')
 OUTPUT_FILE = os.path.join(OUTPUT_DIR, 'mrna_matrix.csv')
