@@ -19,7 +19,7 @@ If there are genes that do not currently have treatments, and their function is 
 # To-Do
 - [x] Decide on what data points to use for unsupervised learning
 **Decided to use data_cna, data_mrna_seq_v2_rsem.txt, data_genetic_ancestry.txt, and data_mutations.txt.**
-- [ ] Prepare data for unsupervised learning
+- [x] Prepare data for unsupervised learning
 - [ ] Do unsupervised learning
 - [ ] Plot tsne of feature embeddings
 - [ ] Feature Comparison for subgroups, what explains subgroups
