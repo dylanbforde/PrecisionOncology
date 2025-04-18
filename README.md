@@ -17,7 +17,8 @@ For example if HER2 is expressed in subgroups that did not survive, it could be 
 If there are genes that do not currently have treatments, and their function is unknown, we can suggest those for further study.
 
 # To-Do
-- [ ] Decide on what data points to use for unsupervised learning
+- [x] Decide on what data points to use for unsupervised learning
+**Decided to use data_cna, data_mrna_seq_v2_rsem.txt, data_genetic_ancestry.txt, and data_mutations.txt.**
 - [ ] Prepare data for unsupervised learning
 - [ ] Do unsupervised learning
 - [ ] Plot tsne of feature embeddings
