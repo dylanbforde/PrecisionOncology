@@ -6,4 +6,6 @@ channels:
 dependencies:
   - python
   - pandas
+  - matplotlib
+  - scikit-learn
 prefix: /home/forde/miniconda3/envs/PrecisionOncology
